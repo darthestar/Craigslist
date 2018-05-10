@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Craigslist", "Craigslist\Craigslist.csproj", "{692B7F8C-5AFA-41AA-95A0-2C2F32F74BF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{692B7F8C-5AFA-41AA-95A0-2C2F32F74BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692B7F8C-5AFA-41AA-95A0-2C2F32F74BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692B7F8C-5AFA-41AA-95A0-2C2F32F74BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692B7F8C-5AFA-41AA-95A0-2C2F32F74BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CFF4D9A-701B-4A32-A5B2-FE7061B4CB11}
+	EndGlobalSection
+EndGlobal
