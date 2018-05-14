@@ -82,6 +82,21 @@ namespace Craigslist.Controllers
                 return Ok(existingListing);
             }
         }
+        [HttpDelete]
+        [Route ("api/listing/{listingID}/DeletePost/")]
+        public IHttpActionResult DeletePost([FromUri] int listingID)
+        {
+            using (var context = new ListingContext())
+            {
+                Listing deletedPost = context.Listings
+                 
+                .Single<Listing>(i => i.ID == listingID);
+
+                context.Listings.Remove(deletedPost);
+                context.SaveChanges();
+            }
+            return Ok();
+        }
 
     }
 }
